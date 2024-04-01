@@ -353,7 +353,7 @@ header a {
 }
 
 #navWrapper {
-  background-color: #FF6B6C;
+  background-color: #ce5858;
 }
 
 nav button {
@@ -385,10 +385,10 @@ nav ul li a {
   text-decoration: none;
 }
 nav ul li.active a {
-  background-color: #ff4243;
+  background-color: #c43939;
 }
 nav ul li a:hover {
-  background-color: #ff5758;
+  background-color: #c94848;
 }
 
 .parentHero {
@@ -438,7 +438,7 @@ div.cards button {
   margin-top: 1rem;
   padding: 0.5rem 1rem;
   font-size: 1rem;
-  background-color: #FF6B6C;
+  background-color: #ce5858;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -568,7 +568,7 @@ div#parent section img {
 }
 
 #footerWrapper {
-  background: #FF6B6C;
+  background: #ce5858;
   color: white;
 }
 
