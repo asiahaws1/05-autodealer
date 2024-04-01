@@ -1,0 +1,32 @@
+#headerWrapper {
+    padding: 2rem $gutter;
+    h1 {font-size: 2rem;}
+}
+
+.allcards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $gutter;
+
+    section{
+        flex-basis: calc(50% - ($gutter/2))
+    }
+}
+
+footer div {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+nav {
+    display:flex;
+    justify-content: left;
+    button {display: none;}
+    ul, ul.open {
+        margin-left: 1vw;
+        border: none;
+        display: flex;
+    }// end ul
+    ul li {border: none;}
+}
